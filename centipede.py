@@ -14,6 +14,10 @@ class Centipede(pygame.sprite.Sprite):
             self.x_speed = 2
         elif self.level == 2:
             self.x_speed = 4
+        elif self.level == 3:
+            self.x_speed = 4
+        else:
+            self.x_speed = 2
 
         self.head_img = pygame.image.load("images/head.png")
         self.body_img = pygame.image.load("images/body.png")

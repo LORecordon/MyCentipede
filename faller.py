@@ -8,7 +8,7 @@ class Faller(pygame.sprite.Sprite):
         self.screen = screen
         self.lives = 2
         self.y_speed = 2
-        self.value = random.randrange(0, 641)
+        self.value = random.randrange(32, screen.get_width() - 32)
         self.y_pos = self.value - self.value % 16
 
         self.image = pygame.image.load("images/faller.png")

@@ -8,7 +8,7 @@ class Mushroom(pygame.sprite.Sprite):
         self.lives = 4
 
         if x == 0 and y == 0:
-            self.x = self.get_random_position(32, 610)
+            self.x = self.get_random_position(32, 768)
             self.y = self.get_random_position(80, 500)
         else:
             self.x = x
